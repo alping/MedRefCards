@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Medicin'
+category: 'general'
+
+modified_date: '161203'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'EKG'
+front_footer: ''
+
+front_toc:
+  - 'EKG'
+front_references:
+  - ''
+
+## Back ########################
+back_header: ''
+back_footer: ''
+
+back_toc:
+  - ''
+back_references:
+  - ''

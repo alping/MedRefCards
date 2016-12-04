@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Neurologi'
+category: 'Basic'
+
+modified_date: '161203'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Neurologisk und.'
+front_footer: ''
+
+front_toc:
+  - 'Neurologisk undersökning'
+front_references:
+  - 'Neurological examination cheat sheet from the Neurology department at Karolinska University Hospital, Solna'
+
+## Back ########################
+back_header: 'Glasgow Coma Scale'
+back_footer: ''
+
+back_toc:
+  - 'Glasgow Coma Scale'
+back_references:
+  - 'Neurological cheat sheet from the Neurology department in Karolinska University Hospital, Solna'

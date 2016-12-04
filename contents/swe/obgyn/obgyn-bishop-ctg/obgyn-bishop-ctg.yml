@@ -1,0 +1,27 @@
+## Card ########################
+domain: 'Obstetrics and Gynaecology'
+category: 'Basic'
+
+modified_date: '160217'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Bishop''s index'
+front_footer: ''
+
+front_toc:
+  - 'Bishop''s index'
+front_references:
+  - 'Lecture slides Danderyd''s Hospital, Stockholm'
+  - 'Hagmar H. Obstetrik. Riktlinjer vastra gotalandsregionen'
+
+## Back ########################
+back_header: 'CTG'
+back_footer: ''
+
+back_toc:
+  - 'CTG'
+back_references:
+  - 'Lecture slides Danderyd''s Hospital, Stockholm'
+  - 'Hagmar H. Obstetrik. Riktlinjer vastra gotalandsregionen'
