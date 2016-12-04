@@ -1,0 +1,30 @@
+## Card ########################
+domain: 'Paediatrics'
+category: 'Basic'
+
+modified_date: '160215'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Normal Physiology'
+front_footer: ''
+
+front_toc:
+  - 'Vital signs, by age'
+  - 'Average weight and length, by age'
+  - 'Weight gain per week, by age'
+  - 'Estimated fluid needs, by weight'
+  - 'Urine production and definition of oliguri, by weight'
+front_references:
+  - 'Paediatric course booklet, Paediatrics course, Karolinska Hospital, Solna, Sweden'
+
+## Back ########################
+back_header: 'Physical examination'
+back_footer: ''
+
+back_toc:
+  - 'Physical examination of the newborn baby'
+back_references:
+  - 'http://www.rikshandboken-bhv.se/texter/undersokningar/kropp/'
+  - 'Paediatric course booklet, Paediatrics course, Karolinska Hospital, Solna, Sweden'
