@@ -17,10 +17,10 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 # Peter Alping
-# peter@alping.se
+# medrefcards@alping.se
 
 # Used for finding all the yaml files corresponding to the cards in the content folder and for logging
-import os, fnmatch, re, logging
+import os, io, fnmatch, re, logging
 
 # Uses yaml to process yaml files with card information
 import yaml
@@ -36,7 +36,7 @@ from pdfrw.toreportlab import makerl
 
 # Load and return yaml data
 def yaml_loader(filepath):
-	with open(filepath, 'r') as file_descriptor:
+	with io.open(filepath,  'r' , encoding='utf8') as file_descriptor:
 		data = yaml.load(file_descriptor)
 		file_descriptor.close()
 	return data
@@ -44,7 +44,7 @@ def yaml_loader(filepath):
 
 # Dump yaml data to file
 def yaml_dump(filepath, data):
-	with open(filepath, 'w') as file_descriptor:
+	with io.open(filepath, 'w', encoding='utf8') as file_descriptor:
 		yaml.dump(data, file_descriptor)
 		file_descriptor.close()
 
@@ -131,12 +131,11 @@ class MedRefDeck():
 		return repr((self.localisation, self.card_filter, self.content_path, self.cards))
 
 	def find_all_cards(self):
-		pattern = '*.yml'
 		path = self.content_path
 		result = []
 		for root, dirs, files in os.walk(path):
 			for name in files:
-				if fnmatch.fnmatch(name, pattern):
+				if name.endswith('.yml'):
 					result.append(os.path.join(root, name))
 		return result
 
@@ -249,7 +248,7 @@ class MedRefCards():
 
 	def draw_title_page(self, c, width, height):
 		title_text = 'Medical Reference Cards'
-		subtitle_text = 'github.com/alping/medical-reference-cards'
+		subtitle_text = 'medrefcards.alping.se'
 
 		c.setFillColorRGB(0, 0, 0)
 
@@ -430,11 +429,11 @@ class MedRefCards():
 
 		# Header text
 		if len(card_face.header) < 23:
-			c.setFont('Helvetica-Bold', 20, leading = None)
+			c.setFont('Helvetica', 20, leading = None)
 		elif len(card_face.header) < 36:
-			c.setFont('Helvetica-Bold', 19, leading = None)
+			c.setFont('Helvetica', 19, leading = None)
 		else:
-			c.setFont('Helvetica-Bold', 18, leading = None)
+			c.setFont('Helvetica', 18, leading = None)
 
 		c.drawCentredString(frame_layout['card']['width']*cm/2 + x_offset, frame_layout['card']['height']*cm - 1.2*cm + y_offset, card_face.header)
 

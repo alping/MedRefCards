@@ -4,6 +4,7 @@
 
 ## Domain: [red, green, blue] (colour value: 0-1) ###
 
+## English (Eng)
 endocrinology: [163, 90, 163]
 general: [30, 190, 170]
 laboratory: [180, 40, 102]
@@ -20,3 +21,19 @@ pharmacology: [200, 150, 100]
 # gynecology: [255, 64, 156]
 # surgery: [0.5, 0.5, 0.5]
 
+## Swedish (Swe)
+endokrinologi: [163, 90, 163]
+allmänt: [30, 190, 170]
+lab: [180, 40, 102]
+medicin: [70, 180, 110]
+neurologi: [102, 102, 153]
+obstetrik och gynekologi: [180, 102, 153]
+ortopedi: [255, 130, 54]
+pediatrik: [64, 153, 255]
+farmakologi: [200, 150, 100]
+anestesi: [255, 67, 64]
+kirurgi: [120, 80, 120]
+
+# emergency: [0.5, 0.5, 0.5]
+# gastroenterology: [0.5, 0.5, 0.5]
+# gynecology: [255, 64, 156]

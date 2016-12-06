@@ -1,23 +1,23 @@
 ## Card ########################
-domain: 'Surgery'
+domain: 'Kirurgi'
 category: 'General'
 
-modified_date: '160217'
+modified_date: '161206'
 verified_date: ''
 verified_by: ''
 
 ## Front #######################
-front_header: 'Massive Gastrointestinal Bleeding'
+front_header: 'Stor GI-blödning'
 front_footer: ''
 
 front_toc:
-  - 'Massive Gastrointestinal Bleeding'
+  - 'Stor gastrointestinal blödning'
 front_references:
   - 'http://ltarkiv.lakartidningen.se/2010/temp/pda37601.pdf'
   - 'http://www.lakartidningen.se/Klinik-och-vetenskap/Medicinens-ABC/2016/01/Massiv-blodning-vid-trauma'
 
 ## Back ########################
-back_header: 'Appendicitis Inflammatory Response (AIR) score'
+back_header: 'AIR score'
 back_footer: ''
 
 back_toc:

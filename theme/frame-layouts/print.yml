@@ -2,7 +2,7 @@
 ## Default frame layout #############################
 #####################################################
 
-output: 'spread'
+output: 'single-page'
 footer_index: false
 
 ## Dimensions in cm #################################
@@ -17,8 +17,8 @@ border:
   outer_corner_radius: 0.5
   inner_corner_radius: 0.2
 key_ring:
-  radius: 1.2  
+  radius: 1.2
 
 ## Static text values ###############################
 static_text:
-  footer: 'github.com/alping/medical-reference-cards'
+  footer: 'medrefcards.alping.se'

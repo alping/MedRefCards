@@ -17,8 +17,8 @@ border:
   outer_corner_radius: 0
   inner_corner_radius: 0
 key_ring:
-  radius: 0  
+  radius: 0
 
 ## Static text values ###############################
 static_text:
-  footer: 'github.com/alping/medical-reference-cards'
+  footer: 'medrefcards.alping.se'
