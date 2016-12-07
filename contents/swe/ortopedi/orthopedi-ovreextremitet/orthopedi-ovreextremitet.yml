@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Ortopedi'
+category: 'Basic'
+
+modified_date: '160218'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Distalstatus - hand'
+front_footer: ''
+
+front_toc:
+  - 'Distalstatus - hand'
+front_references:
+  - 'Martin'
+
+## Back ########################
+back_header: '- Empty -'
+back_footer: ''
+
+back_toc:
+  - ''
+back_references:
+  - ''

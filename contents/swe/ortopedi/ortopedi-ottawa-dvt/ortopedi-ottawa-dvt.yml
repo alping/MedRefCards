@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Ortopedi'
+category: 'Basic'
+
+modified_date: '160217'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Ottawa Ancle Rule'
+front_footer: ''
+
+front_toc:
+  - 'Ottawa ancle rule'
+front_references:
+  - ''
+
+## Back ########################
+back_header: 'Wells Score, DVT'
+back_footer: ''
+
+back_toc:
+  - 'Deep Venous Trombosis Score'
+back_references:
+  - ''

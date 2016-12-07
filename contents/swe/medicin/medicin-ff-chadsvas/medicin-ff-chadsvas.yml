@@ -1,0 +1,26 @@
+## Card ########################
+domain: 'Medicin'
+category: 'Basic'
+
+modified_date: '161206'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Förmaksflimmer'
+front_footer: ''
+
+front_toc:
+  - 'Typer av förmaksflimmer'
+  - 'Behandling av förmaksflimmer'
+front_references:
+  - 'Kajsa'
+
+## Back ########################
+back_header: 'CHA2DS2VAS'
+back_footer: ''
+
+back_toc:
+  - 'CHA2DS2VAS'
+back_references:
+  - 'Behandlingsprogram Akut internmedicin Janusinfo 2015. Fass.'
