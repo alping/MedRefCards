@@ -15,12 +15,6 @@ orthopaedics: [255, 130, 54]
 paediatrics: [64, 153, 255]
 pharmacology: [200, 150, 100]
 
-# anaesthesiology: [255, 67, 64]
-# emergency: [0.5, 0.5, 0.5]
-# gastroenterology: [0.5, 0.5, 0.5]
-# gynecology: [255, 64, 156]
-# surgery: [0.5, 0.5, 0.5]
-
 ## Swedish (Swe)
 endokrinologi: [163, 90, 163]
 allmänt: [30, 190, 170]
@@ -34,8 +28,4 @@ farmakologi: [200, 150, 100]
 anestesi: [255, 67, 64]
 kirurgi: [120, 80, 120]
 onh: [40, 40, 200]
-
-
-# emergency: [0.5, 0.5, 0.5]
-# gastroenterology: [0.5, 0.5, 0.5]
-# gynecology: [255, 64, 156]
+hud: [200, 170, 80]
