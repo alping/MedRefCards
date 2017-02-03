@@ -267,20 +267,20 @@ class MedRefCards():
 	def draw_card_spread(self, c, card, colour_scheme, frame_layout):
 		self.draw_card_face(c, card.front_face, card.domain, colour_scheme, frame_layout, 1)
 		self.draw_card_face(c, card.back_face, card.domain, colour_scheme, frame_layout, 2, frame_layout['card']['width']*cm)
-		self.add_toc_item(c, card.front_face.header + ' / ' + card.back_face.header, card.front_face.header + '-' + card.back_face.header, 2, True)
+		# self.add_toc_item(c, card.front_face.header + ' / ' + card.back_face.header, card.front_face.header + '-' + card.back_face.header, 2, True)
 
 		item_nr = 0
 
-		self.add_toc_item(c, 'Front Face', card.front_face.header + '-front', 3)
+		# self.add_toc_item(c, 'Front Face', card.front_face.header + '-front', 3)
 		for title in card.front_face.toc:
 			if title != '':
-				self.add_toc_item(c, title, card.front_face.header + '-' + str(item_nr), 4)
+				self.add_toc_item(c, title, card.front_face.header + '-' + str(item_nr), 2)
 				item_nr += 1
 
-		self.add_toc_item(c, 'Back Face', card.back_face.header + '-back', 3)
+		# self.add_toc_item(c, 'Back Face', card.back_face.header + '-back', 3)
 		for title in card.back_face.toc:
 			if title != '':
-				self.add_toc_item(c, title, card.back_face.header + '-' + str(item_nr), 4)
+				self.add_toc_item(c, title, card.back_face.header + '-' + str(item_nr), 2)
 				item_nr += 1
 
 		c.showPage()
@@ -435,7 +435,7 @@ class MedRefCards():
 		else:
 			c.setFont('Helvetica', 18, leading = None)
 
-		c.drawCentredString(frame_layout['card']['width']*cm/2 + x_offset, frame_layout['card']['height']*cm - 1.2*cm + y_offset, card_face.header)
+		c.drawCentredString(frame_layout['card']['width']*cm/2 + x_offset, frame_layout['card']['height']*cm - 1.15*cm + y_offset, card_face.header)
 
 		# Footer
 		if frame_layout['footer_index']:
@@ -454,7 +454,7 @@ class MedRefCards():
 		else:
 			c.setFillColorRGB(1, 1, 1)
 			c.setFont('Helvetica', 7, leading = None)
-			c.drawCentredString(frame_layout['card']['width']*cm/2 + x_offset, 0.14*cm + y_offset, frame_layout['static_text']['footer'])
+			c.drawCentredString(frame_layout['card']['width']*cm/2 + x_offset, 0.12*cm + y_offset, frame_layout['static_text']['footer'])
 
 		# Include contents
 		if os.path.isfile(card_face.content_path):

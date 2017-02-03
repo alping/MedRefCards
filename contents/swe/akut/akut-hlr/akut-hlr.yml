@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Akut'
+category: 'Basic'
+
+modified_date: '170203'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'A-HLR'
+front_footer: ''
+
+front_toc:
+  - 'A-HLR'
+front_references:
+  - 'http://www.hlrwebbutik.se/product/as-hlr-handlingsplan-a5/'
+
+## Back ########################
+back_header: 'Hjärtstopp'
+back_footer: ''
+
+back_toc:
+  - 'Hjärtstopp'
+back_references:
+  - ''

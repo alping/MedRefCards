@@ -1,8 +1,8 @@
 ## Card ########################
-domain: 'Anestesi'
+domain: 'Lab'
 category: 'general'
 
-modified_date: '161203'
+modified_date: '170203'
 verified_date: ''
 verified_by: ''
 
@@ -13,10 +13,10 @@ front_footer: ''
 front_toc:
   - 'Blodgas'
 front_references:
-  - ''
+  - 'http://www.karolinska.se/KUL/Alla-anvisningar/Anvisning/9020'
 
 ## Back ########################
-back_header: ''
+back_header: 'Syra / Bas'
 back_footer: ''
 
 back_toc:

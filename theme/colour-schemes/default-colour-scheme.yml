@@ -16,6 +16,7 @@ paediatrics: [64, 153, 255]
 pharmacology: [200, 150, 100]
 
 ## Swedish (Swe)
+akut: [255, 0, 0]
 endokrinologi: [163, 90, 163]
 allmänt: [30, 190, 170]
 lab: [180, 40, 102]
