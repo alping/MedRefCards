@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'ONH'
+category: 'general'
+
+modified_date: '160217'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Centorkriterier'
+front_footer: ''
+
+front_toc:
+  - 'Centorkriterier'
+front_references:
+  - ''
+
+## Back ########################
+back_header: 'Bakteriell Rinosinuit'
+back_footer: ''
+
+back_toc:
+  - 'Bakteriell Rinosinuit'
+back_references:
+  - ''

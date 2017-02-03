@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Hud'
+category: 'Basic'
+
+modified_date: '161212'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Efflorescenser'
+front_footer: ''
+
+front_toc:
+  - 'Efflorescenser'
+front_references:
+  - ''
+
+## Back ########################
+back_header: 'Huddiagnostik'
+back_footer: ''
+
+back_toc:
+  - 'Huddiagnostik'
+back_references:
+  - ''
