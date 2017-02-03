@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Lab'
+category: 'general'
+
+modified_date: '170203'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'Blodgas'
+front_footer: ''
+
+front_toc:
+  - 'Blodgas'
+front_references:
+  - 'http://www.karolinska.se/KUL/Alla-anvisningar/Anvisning/9020'
+
+## Back ########################
+back_header: 'Syra / Bas'
+back_footer: ''
+
+back_toc:
+  - ''
+back_references:
+  - ''

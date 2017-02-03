@@ -1,25 +1,25 @@
 ## Card ########################
-domain: 'Anestesi'
-category: 'general'
+domain: 'Akut'
+category: 'Basic'
 
-modified_date: '161203'
+modified_date: '170203'
 verified_date: ''
 verified_by: ''
 
 ## Front #######################
-front_header: 'Blodgas'
+front_header: 'A-HLR'
 front_footer: ''
 
 front_toc:
-  - 'Blodgas'
+  - 'A-HLR'
 front_references:
-  - ''
+  - 'http://www.hlrwebbutik.se/product/as-hlr-handlingsplan-a5/'
 
 ## Back ########################
-back_header: ''
+back_header: 'Hjärtstopp'
 back_footer: ''
 
 back_toc:
-  - ''
+  - 'Hjärtstopp'
 back_references:
   - ''

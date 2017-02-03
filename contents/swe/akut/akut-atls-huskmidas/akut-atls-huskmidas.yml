@@ -1,0 +1,25 @@
+## Card ########################
+domain: 'Akut'
+category: 'Basic'
+
+modified_date: '170203'
+verified_date: ''
+verified_by: ''
+
+## Front #######################
+front_header: 'C-ABCDE'
+front_footer: ''
+
+front_toc:
+  - 'C-ABCDE'
+front_references:
+  - 'En narkosjour på Huddinge sjukhus'
+
+## Back ########################
+back_header: 'HUSK-MIDAS'
+back_footer: ''
+
+back_toc:
+  - 'HUSK-MIDAS'
+back_references:
+  - 'http://icd.internetmedicin.se/fakta/HUSKMIDAS'
